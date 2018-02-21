@@ -1,6 +1,5 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, index)
 taken = nil
 
 if (board[index] == "" || (board[index] == " " ||(board[index] == nil)
@@ -10,8 +9,6 @@ else board[index] == "X" || "O"
   taken = true
 end
 
-end
 
-position_taken?(board, index)
 
 
